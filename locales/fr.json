@@ -1,0 +1,24 @@
+{
+  "ui": { "garage": "Garage", "impound": "Fourrière" },
+  "help": {
+    "open_garage": "~INPUT_CONTEXT~ Ouvrir le garage",
+    "store": "~INPUT_CONTEXT~ Ranger le véhicule",
+    "open_impound": "~INPUT_CONTEXT~ Ouvrir la fourrière",
+    "browse": "~INPUT_FRONTEND_ACCEPT~ Conduire ~h~%s~h~ [~b~%s~s~]\nUtilisez ~INPUT_CELLPHONE_LEFT~/~INPUT_CELLPHONE_RIGHT~ pour changer de véhicule\n~INPUT_CELLPHONE_CANCEL~ pour arrêter de parcourir",
+    "impound": "~INPUT_FRONTEND_ACCEPT~ Payer ~g~$%s~s~ pour récupérer ~h~%s~h~ [~b~%s~s~]\nUtilisez ~INPUT_CELLPHONE_LEFT~/~INPUT_CELLPHONE_RIGHT~ pour changer de véhicule\n~INPUT_CELLPHONE_CANCEL~ pour arrêter de parcourir"
+  },
+  "success": { "stored": "Véhicule rangé avec succès.", "retrieved": "Véhicule récupéré." },
+  "error": {
+    "load_model": "Échec du chargement du modèle de véhicule.",
+    "no_owned": "Vous ne possédez aucun véhicule.",
+    "not_owner": "Vous ne possédez pas ce véhicule.",
+    "already_out": "Ce véhicule est déjà sorti.",
+    "pull_fail": "Échec de sortie du véhicule.",
+    "already_stored": "Ce véhicule est déjà rangé.",
+    "store_fail": "Échec du rangement du véhicule.",
+    "driver_only": "Vous devez être le conducteur pour ranger le véhicule.",
+    "no_impounded": "Aucun véhicule n'est actuellement en fourrière.",
+    "no_money": "Pas assez d'argent.",
+    "retrieve_fail": "Échec de la récupération du véhicule."
+  }
+}

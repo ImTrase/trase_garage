@@ -1,0 +1,24 @@
+{
+  "ui": { "garage": "Garage", "impound": "Impound" },
+  "help": {
+    "open_garage": "~INPUT_CONTEXT~ Open Garage",
+    "store": "~INPUT_CONTEXT~ Store Vehicle",
+    "open_impound": "~INPUT_CONTEXT~ Open Impound",
+    "browse": "~INPUT_FRONTEND_ACCEPT~ Drive ~h~%s~h~ [~b~%s~s~]\nUse ~INPUT_CELLPHONE_LEFT~/~INPUT_CELLPHONE_RIGHT~ to change vehicle\n~INPUT_CELLPHONE_CANCEL~ to stop browsing",
+    "impound": "~INPUT_FRONTEND_ACCEPT~ Pay ~g~$%s~s~ to retrieve ~h~%s~h~ [~b~%s~s~]\nUse ~INPUT_CELLPHONE_LEFT~/~INPUT_CELLPHONE_RIGHT~ to change vehicle\n~INPUT_CELLPHONE_CANCEL~ to stop browsing"
+  },
+  "success": { "stored": "Vehicle stored successfully.", "retrieved": "Vehicle retrieved." },
+  "error": {
+    "load_model": "Failed to load vehicle model.",
+    "no_owned": "You do not own any vehicles.",
+    "not_owner": "You do not own this vehicle.",
+    "already_out": "This vehicle is already out.",
+    "pull_fail": "Failed to pull out vehicle.",
+    "already_stored": "This vehicle is already stored.",
+    "store_fail": "Failed to store vehicle.",
+    "driver_only": "You must be the driver to store the vehicle.",
+    "no_impounded": "No vehicles are currently impounded.",
+    "no_money": "Not enough money.",
+    "retrieve_fail": "Failed to retrieve vehicle."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "ui": { "garage": "Garaje", "impound": "Depósito" },
+  "help": {
+    "open_garage": "~INPUT_CONTEXT~ Abrir garaje",
+    "store": "~INPUT_CONTEXT~ Guardar vehículo",
+    "open_impound": "~INPUT_CONTEXT~ Abrir depósito",
+    "browse": "~INPUT_FRONTEND_ACCEPT~ Conducir ~h~%s~h~ [~b~%s~s~]\nUsa ~INPUT_CELLPHONE_LEFT~/~INPUT_CELLPHONE_RIGHT~ para cambiar de vehículo\n~INPUT_CELLPHONE_CANCEL~ para dejar de navegar",
+    "impound": "~INPUT_FRONTEND_ACCEPT~ Pagar ~g~$%s~s~ para recuperar ~h~%s~h~ [~b~%s~s~]\nUsa ~INPUT_CELLPHONE_LEFT~/~INPUT_CELLPHONE_RIGHT~ para cambiar de vehículo\n~INPUT_CELLPHONE_CANCEL~ para dejar de navegar"
+  },
+  "success": { "stored": "Vehículo guardado con éxito.", "retrieved": "Vehículo recuperado." },
+  "error": {
+    "load_model": "No se pudo cargar el modelo del vehículo.",
+    "no_owned": "No posees ningún vehículo.",
+    "not_owner": "No eres el propietario de este vehículo.",
+    "already_out": "Este vehículo ya está fuera.",
+    "pull_fail": "No se pudo sacar el vehículo.",
+    "already_stored": "Este vehículo ya está guardado.",
+    "store_fail": "No se pudo guardar el vehículo.",
+    "driver_only": "Debes ser el conductor para guardar el vehículo.",
+    "no_impounded": "No hay vehículos en el depósito actualmente.",
+    "no_money": "No tienes suficiente dinero.",
+    "retrieve_fail": "No se pudo recuperar el vehículo."
+  }
+}
