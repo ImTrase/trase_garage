@@ -1,0 +1,30 @@
+{
+  "ui": { 
+    "garage": "Garasje", 
+    "impound": "Inntauing" 
+  },
+  "help": {
+    "open_garage": "~INPUT_CONTEXT~ Åpne Garasje",
+    "store": "~INPUT_CONTEXT~ Parker Kjøretøy",
+    "open_impound": "~INPUT_CONTEXT~ Åpne Inntauing",
+    "browse": "~INPUT_FRONTEND_ACCEPT~ Kjør ~h~%s~h~ [~b~%s~s~]\nBruk ~INPUT_CELLPHONE_LEFT~/~INPUT_CELLPHONE_RIGHT~ for å bytte kjøretøy\n~INPUT_CELLPHONE_CANCEL~ for å avslutte",
+    "impound": "~INPUT_FRONTEND_ACCEPT~ Betal ~g~$%s~s~ for å hente ~h~%s~h~ [~b~%s~s~]\nBruk ~INPUT_CELLPHONE_LEFT~/~INPUT_CELLPHONE_RIGHT~ for å bytte kjøretøy\n~INPUT_CELLPHONE_CANCEL~ for å avslutte"
+  },
+  "success": { 
+    "stored": "Kjøretøy parkert.", 
+    "retrieved": "Kjøretøy hentet." 
+  },
+  "error": {
+    "load_model": "Kunne ikke laste kjøretøymodell.",
+    "no_owned": "Du eier ingen kjøretøy.",
+    "not_owner": "Du eier ikke dette kjøretøyet.",
+    "already_out": "Dette kjøretøyet er allerede ute.",
+    "pull_fail": "Kunne ikke hente ut kjøretøy.",
+    "already_stored": "Dette kjøretøyet er allerede parkert.",
+    "store_fail": "Kunne ikke parkere kjøretøy.",
+    "driver_only": "Du må være sjåfør for å parkere kjøretøyet.",
+    "no_impounded": "Ingen kjøretøy er for øyeblikket inntauet.",
+    "no_money": "Ikke nok penger.",
+    "retrieve_fail": "Kunne ikke hente kjøretøy."
+  }
+}
